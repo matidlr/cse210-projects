@@ -56,7 +56,7 @@ public class Journal
         try
         {
             string jsonString = File.ReadAllText(file);
-            // Deserializes directly back into our List of Entry objects
+           
             List<Entry> loadedEntries = JsonSerializer.Deserialize<List<Entry>>(jsonString);
             
             if (loadedEntries != null)

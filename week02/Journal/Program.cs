@@ -1,13 +1,11 @@
 using System;
 using System.Collections.Generic;
 
-// ===================================================================================
 // CREATIVITY & EXCEEDING REQUIREMENTS REPORT:
-// 1. Advanced Data Storage (JSON): Instead of using fragile text separators like '|' 
+// Advanced Data Storage (JSON): Instead of using fragile text separators like '|' 
 //    or '~', this program implements robust JSON serialization via `System.Text.Json`. 
 //    This prevents application crashes or parsing bugs if a user inputs commas, 
 //    quotes, or line breaks into their journal entry content.
-// ===================================================================================
 
 class Program
 {
